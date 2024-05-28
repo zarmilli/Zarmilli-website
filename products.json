@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name":" Deluxe hoodie",
+        "price": 20,
+        "image": "images/products/hoodie.png"
+    },
+    {
+        "id": 2,
+        "name":"Scrunchie",
+        "price": 7,
+        "image": " images/products/scrunchie.png"
+    },
+    {
+        "id": 3,
+        "name":" Serene tee",
+        "price": 15,
+        "image": "images/products/serene tee.png"
+    },
+    {
+        "id": 4,
+        "name":" Deluxe tee",
+        "price": 12,
+        "image": "images/products/corporate tee.png"
+    },
+    {
+        "id": 5,
+        "name":" Loafers",
+        "price": 70,
+        "image": "images/products/beige loafer.png"
+    },
+    {
+        "id": 6,
+        "name":" Beige top",
+        "price": 20,
+        "image": "images/products/beige top.png"
+    },
+    {
+        "id": 7,
+        "name":" Fitness watch",
+        "price": 200,
+        "image": "images/products/hoco watch.png"
+    },
+    {
+        "id": 8,
+        "name":" Deluxe watch",
+        "price": 350,
+        "image": "images/products/swiss watch.png"
+    },
+    {
+        "id": 9,
+        "name":" Custom tote",
+        "price": 15,
+        "image": "images/products/custom tote.png"
+    },
+    {
+        "id": 10,
+        "name":" Beanie",
+        "price": 12,
+        "image": "images/products/zarmilli beanies.png"
+    },
+    {
+        "id": 11,
+        "name":" Custom tote",
+        "price": 12,
+        "image": "images/products/zar tote.png"
+    },
+    {
+        "id": 12,
+        "name":" Old money pants",
+        "price": 20,
+        "image": "images/products/old money pants.png"
+    },
+    {
+        "id": 13,
+        "name":" Decor pillow",
+        "price": 200,
+        "image": "images/products/pillow.png"
+    },
+    {
+        "id": 8,
+        "name":" Deluxe watch",
+        "price": 350,
+        "image": "images/products/swiss watch.png"
+    }
+
+]

@@ -1,0 +1,124 @@
+body {
+    font-family: 'Bodoni Moda', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background: url('images/snow\ 3.jpg') no-repeat center center/cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-section .hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+    gap: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.product-details h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-price {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.product-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.buy-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #DECBA4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.9s;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .product-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image img, .product-details {
+        max-width: 100%;
+    }
+
+    .product-description {
+        text-align: justify;
+    }
+
+    .product-price {
+        text-align: center;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+.footer-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
